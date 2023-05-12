@@ -10,3 +10,10 @@ def LReg(x,y):
 
 https://stackoverflow.com/questions/34682828/extracting-specific-selected-columns-to-new-dataframe-as-a-copy
 hotel_df = filtered_city_data_df[['City','Country', 'Lat', 'Lng','Humidity']].copy()
+
+https://discourse.holoviz.org/t/add-an-extra-field-when-hovering-in-hvplot-scatter/2331
+hover_cols=["City","Country","Hotel Name"]
+
+https://www.kdnuggets.com/2019/06/select-rows-columns-pandas.html
+ long = hotel_df.loc[index,"Lng"]
+ lati = hotel_df.loc[index,"Lat"]
